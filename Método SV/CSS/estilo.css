@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%27'); 
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+ 
+ 
+body{
+   
+    background-image: url("../Recursos/IMG/pexels-mdsnmdsnmdsn-1831234.jpg");
+    background-size: 100%;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+ 
+img#Uni{
+ 
+width: 200px;
+height: 200px;
+ 
+border-radius: 200px;
+border:10px double rgb(180, 38, 88); /*Engloba todos os de cima*/
+ 
+box-shadow: 10px 2px 20px rgba(0, 0, 0, 10);
+ 
+}
+ 
+ 
+.titulos {
+ 
+color: rgb(139, 4, 51);;
+text-align: center;
+ 
+}
+ 
+ 
+h1{
+    font-size: 60px;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+ 
+ 
+h2{
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+ 
+    margin: 0px 0px 10px 0px;
+}
+
+h3{
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+ 
+    margin: 0px 0px 50px 0px;
+}
+ 
+figure{
+   
+display: flex;
+justify-content: center;
+ 
+ 
+}
+ 
+ 
+.botao{
+ 
+    background-color:  rgb(255, 174, 197);
+    color: rgb(139, 4, 51);
+    font-family: "Lobster Two", sans-serif;
+    border: none;
+    font-size: 30px;
+    margin:10px;
+    padding: 20px;
+    width: 500px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px rgb(180, 38, 88);
+    transition: 0.3s;
+    cursor: pointer;
+ 
+}
+ 
+.botao:hover{
+ 
+    background-color: rgb(212, 71, 116);
+    font-size: 40px;
+   
+ 
+}
+ 
+ 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+ 
+}
+ 
+#rodape{
+ 
+    display: flex;
+    margin-top: 30px ;
+}
+ 
+.icones{
+ 
+margin: 10px;
+ 
+}
+ 
+svg:hover{
+ 
+    fill: rgb(212, 71, 116);
+    cursor: pointer;
+ 
+    transform: scale(1.2);
+ 
+ 
+    }
+
+    #modoescuro{
+ 
+     position: absolute;
+     top: 2%;
+     right: 10px;
+ 
+}
+
+@media (max-width: 600px){ /* MOBILE*/
+ 
+    .botao{
+ 
+        width: 400px;
+       
+ 
+    }
+ 
+}
+
+@media (max-width: 800px){ /*TABLET*/
+ 
+.botao{
+    width: 400px;
+ 
+ 
+}
+ 
+ 
+}
+ 
+ 
